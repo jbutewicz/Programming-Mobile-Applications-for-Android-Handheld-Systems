@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DangerousApp</string>
+    <string name="hello_world">You have opened a dangerous activity</string>
+	<string name="dangerous_activity_label">Dangerous Activity!</string>
+    <string name="dangerous_activity_description">This activity is dangerous!</string>
+
+</resources>
