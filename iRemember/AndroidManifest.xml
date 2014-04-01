@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="edu.vanderbilt.mooc"
+    android:versionCode="010"
+    android:versionName="0.1.0-SNAPSHOT" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="edu.vuum.mocca.ui.story.StoryListActivity"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- THIS IS THE CREATION ACTIVITY -->
+        <activity android:name="edu.vuum.mocca.ui.story.CreateStoryActivity" >
+        </activity>
+        <!-- THIS IS THE SINGLE VIEW ACTIVITY -->
+        <activity android:name="edu.vuum.mocca.ui.story.ViewStoryActivity" >
+        </activity>
+        <!-- THIS IS THE EDIT ACTIVITY -->
+        <activity android:name="edu.vuum.mocca.ui.story.EditStoryActivity" >
+        </activity>
+        <activity
+            android:name="edu.vanderbilt.mooc.MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name="edu.vuum.mocca.ui.story.SoundRecordActivity"
+            android:label="@string/title_activity_sound_record" >
+        </activity>
+    </application>
+
+</manifest>
