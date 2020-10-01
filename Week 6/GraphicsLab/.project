@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>GraphicsLab</name>
+	<name>GraphicsLab</name>// the project description starts here 
 	<comment></comment>
 	<projects>
 	</projects>
 	<buildSpec>
 		<buildCommand>
-			<name>com.android.ide.eclipse.adt.ResourceManagerBuilder</name>
+			<name>com.android.ide.eclipse.adt.ResourceManagerBuilder</name> // Basic commands given
 			<arguments>
 			</arguments>
 		</buildCommand>
@@ -30,4 +30,4 @@
 		<nature>com.android.ide.eclipse.adt.AndroidNature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
-</projectDescription>
+</projectDescription> // basic commands ends here
